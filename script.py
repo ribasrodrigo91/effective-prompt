@@ -1,7 +1,7 @@
 import openai
 
 # Configure sua chave da API do OpenAI
-openai.api_key = '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'
+openai.api_key = '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'
 
 # Defina o prompt de entrada para o modelo GPT
 prompt = "Escreva aqui o texto que deseja completar."
