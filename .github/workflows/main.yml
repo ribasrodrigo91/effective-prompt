@@ -22,4 +22,6 @@ jobs:
         python -m pip install -r requirements.txt
 
     - name: Executar script GPT
-      run: python script.py  # Ou o nome do seu script
+      run: |
+        source gpt-env/bin/activate
+        python script.py  # Ou o nome do seu script
