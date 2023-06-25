@@ -4,7 +4,7 @@ import openai
 openai.api_key = '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'
 
 # Defina o prompt de entrada para o modelo GPT
-prompt = "Escreva aqui o texto que deseja completar."
+prompt = "Me dê dicas de como usar a API do GPT dentro do github"
 
 # Gere a resposta do modelo
 response = openai.Completion.create(
